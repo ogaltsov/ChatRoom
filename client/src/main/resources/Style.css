@@ -1,0 +1,179 @@
+
+.textFlow{
+    -fx-background-color: rgb(6,130,252);
+    -fx-background-insets: -5 -10 -5 -5;
+    -fx-shape: "M 94.658379,129.18587 H 46.277427 c -3.545458,0.23354 -5.32763,-1.59167 -5.14193,-4.67449
+    v -19.39913 c 0.405797,-3.73565 2.470637,-4.56641 5.14193,-4.90821 h 43.706464 c 2.572701,0.2361 4.604321,
+    1.68288 4.674488,4.90821 v 19.39913 c 0.436089,3.14572 2.890695,3.57304 4.908212,4.67449 z";
+}
+
+.textFlowFlipped{
+    -fx-background-color: rgb(235,235,235);
+    -fx-background-insets: -5 -5 -5 -10;
+    -fx-shape: "m 46.030545,129.18592 h 48.380952 c 3.54546,0.23355 5.32763,-1.59167 5.14193,-4.67449
+    V 105.1123 c -0.4058,-3.73565 -2.47064,-4.56641 -5.14193,-4.90821 H 50.705033
+    c -2.572701,0.2361 -4.604321,1.68288 -4.674488,4.90821 v 19.39913
+    c -0.436089,3.14572 -2.890695,3.57304 -4.908212,4.67449 z";
+}
+
+.textFlowLog{
+    -fx-background-color: rgba(0,0,0,.1);
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.08),2,1.0,-0.5,-0.5);
+    -fx-background-insets: -5 -10 -5 -5;
+    -fx-shape: d="M 100, 0 h300 a30,30 0 0 1 30,30 v60 a30,30 0 0 1 -30,30 h-300 a30,30 0 0 1 -30,-30 v-60 a30,30 0 0 1 30,-30 z";
+
+}
+
+.tempFlow{
+    -fx-padding: 5 15 5 10;
+}
+
+.tempFlowFlipped{
+    -fx-padding: 5 5 5 15;
+}
+
+.tempFlowLog{
+    -fx-padding: 5 5 5 5;
+}
+
+.hbox{
+    -fx-background-insets: 15;
+    -fx-padding: 12px;
+}
+
+.message{
+    -fx-font-size: 14px;
+    -fx-font-weight: 300;
+}
+
+.txtName{
+    -fx-fill: black;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+
+}
+
+#clientListScroll{
+    -fx-background-color: transparent;
+}
+#clientListScroll >.viewport{
+    -fx-background-color: transparent;
+}
+
+#clientListScroll .scroll-bar:vertical{
+    -fx-background-color:inherit;
+
+}
+
+#clientListScroll .scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+
+}
+#clientListScroll .scroll-bar:vertical .increment-button,
+#clientListScroll .scroll-bar:vertical .decrement-button{
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+
+}
+
+#clientListScroll  .scroll-bar .increment-arrow,
+#clientListScroll  .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+#clientListScroll .scroll-bar:vertical .thumb {
+    -fx-background-color:transparent;
+
+}
+#clientListScroll:hover .scroll-bar:vertical .thumb{
+    -fx-background-color:rgba(0,0,0,0.6);
+    -fx-background-insets: 4, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+
+#clientListBox{
+    -fx-background-color: transparent;
+}
+
+#scrollPane{
+    -fx-background-color: transparent;
+}
+#scrollPane >.viewport{
+    -fx-background-color: transparent;
+}
+
+#scrollPane .scroll-bar:vertical{
+    -fx-background-color:inherit;
+
+}
+
+#scrollPane .scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+
+}
+#scrollPane .scroll-bar:vertical .increment-button,
+#scrollPane .scroll-bar:vertical .decrement-button{
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+
+}
+
+#scrollPane  .scroll-bar .increment-arrow,
+#scrollPane  .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+#scrollPane .scroll-bar:vertical .thumb {
+    -fx-background-color:transparent;
+
+}
+#scrollPane:hover .scroll-bar:vertical .thumb{
+    -fx-background-color:rgba(0,0,0,0.6);
+    -fx-background-insets: 4, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.chatBox{
+    -fx-background-color: rgb(250,250,250);
+    -fx-padding: 20px;
+    -fx-background-insets: -25px;
+}
+
+.online-label , .online-settings{
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+
+.online-settings:hover{
+    -fx-font-size: 18px;
+    -fx-cursor: hand;
+}
+
+.online-label-details{
+    -fx-text-fill: lightgray;
+    -fx-font-size: 12px;
+}
+.online-user-container{
+    -fx-background-color: inherit;
+}
+.online-user-container:hover{
+
+    -fx-background-color: rgba(0,0,0,.1);
+    -fx-border-color: rgba(70,70,70,0.8);
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+.online-user-container:hover .circle{
+    -fx-effect: dropshadow(three-pass-box, red, 2, 2, 0, 0);
+}
+
+#signBtn{
+-fx-background-color: rgb(6,130,252);
+}

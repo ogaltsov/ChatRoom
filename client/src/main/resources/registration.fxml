@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="globParent" alignment="center" prefHeight="252.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.galts.client.RegistrationController">
+   <Label text="Registration">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+      <VBox.margin>
+         <Insets bottom="15.0" />
+      </VBox.margin></Label>
+    <TextField fx:id="login" maxWidth="200" promptText="Login">
+      <VBox.margin>
+         <Insets bottom="10.0" />
+      </VBox.margin></TextField>
+    <TextField fx:id="password" maxWidth="200" promptText="Password">
+    <VBox.margin>
+        <Insets bottom="10.0" />
+    </VBox.margin></TextField>
+    <TextField fx:id="nickname" maxWidth="200" promptText="Nickname">
+        <VBox.margin>
+            <Insets bottom="10.0" />
+        </VBox.margin></TextField>
+
+    <Button onAction="#tryToRegister" prefWidth="200" text="Registration">
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <VBox.margin>
+         <Insets bottom="10.0" />
+      </VBox.margin></Button>
+
+    <Label fx:id="result" alignment="CENTER" maxWidth="300" textFill="#ba1818" />
+</VBox>
