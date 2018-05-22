@@ -17,9 +17,11 @@ GUI приложение, осуществляющее обмен сообщен
 * Шифрование паролей(**SHA-256**)
 * Общая чат-сессия с возможностью общие и личные сообщения
 
-<img src="https://github.com/podoshel/ChatRoom/blob/master/Pictures/1.png" width="200" height="50"/>
-<img src="https://github.com/podoshel/ChatRoom/blob/master/Pictures/1.png" width="200" height="50"/>
 
-![screenshot of samphttps://github.com/podoshel/ChatRoom/blob/master/Pictures/1.pngle](https://github.com/podoshel/ChatRoom/blob/master/Pictures/1.png)
+![screenshot of sample](https://github.com/podoshel/ChatRoom/blob/master/Pictures/1.png)
 ![screenshot of sample](https://github.com/podoshel/ChatRoom/blob/master/Pictures/2.png)
 ![screenshot of sample](https://github.com/podoshel/ChatRoom/blob/master/Pictures/3.png)
+#
+____________________________________________________________________________________
+
+
